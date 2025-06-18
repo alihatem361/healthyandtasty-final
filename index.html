@@ -130,8 +130,8 @@
       name="facebook-domain-verification"
       content="l64hdesgmcr0ilvburuzdwwwmud4b7"
     />
-    <!-- Styles -->
-    <link
+    <!-- =========================== Styles ===========================-->
+    <!-- <link
       rel="stylesheet"
       href="https://healthyandtasty.net/new-assets/libs/bootstrap/css/bootstrap.rtl.min.css?v=1.1.1.1.1.64"
     />
@@ -154,7 +154,83 @@
     <link
       rel="stylesheet"
       href="https://healthyandtasty.net/new-assets/libs/select2/css/select2.min.css?v=1.1.1.1.1.64"
+    /> -->
+
+    <!-- updated style -->
+
+    <link
+      rel="preload"
+      href="https://healthyandtasty.net/new-assets/libs/bootstrap/css/bootstrap.rtl.min.css?v=1.1.1.1.1.64"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
     />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://healthyandtasty.net/new-assets/libs/bootstrap/css/bootstrap.rtl.min.css?v=1.1.1.1.1.64"
+    /></noscript>
+
+    <link
+      rel="preload"
+      href="https://healthyandtasty.net/new-assets/libs/owl/dist/assets/owl.carousel.min.css?v=1.1.1.1.1.64"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://healthyandtasty.net/new-assets/libs/owl/dist/assets/owl.carousel.min.css?v=1.1.1.1.1.64"
+    /></noscript>
+
+    <link
+      rel="preload"
+      href="https://healthyandtasty.net/new-assets/flaticon/font/flaticon_oxford.css?v=1.1.1.1.1.64"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://healthyandtasty.net/new-assets/flaticon/font/flaticon_oxford.css?v=1.1.1.1.1.64"
+    /></noscript>
+
+    <link
+      rel="preload"
+      href="https://healthyandtasty.net/new-assets/css/style.css?v=1.1.1.1.1.64"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://healthyandtasty.net/new-assets/css/style.css?v=1.1.1.1.1.64"
+    /></noscript>
+
+    <link
+      rel="preload"
+      href="https://healthyandtasty.net/new-assets/libs/jquery-toast-plugin/1.3.2/jquery.toast.min.css?v=1.1.1.1.1.64"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://healthyandtasty.net/new-assets/libs/jquery-toast-plugin/1.3.2/jquery.toast.min.css?v=1.1.1.1.1.64"
+    /></noscript>
+
+    <link
+      rel="preload"
+      href="https://healthyandtasty.net/new-assets/libs/select2/css/select2.min.css?v=1.1.1.1.1.64"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://healthyandtasty.net/new-assets/libs/select2/css/select2.min.css?v=1.1.1.1.1.64"
+    /></noscript>
+
+    <!--  -->
 
     <style>
       .jq-toast-wrap {
@@ -166,6 +242,29 @@
       }
       .header .top-header .brand img {
         max-width: 140px !important;
+      }
+
+      .loading {
+        position: relative;
+      }
+      .loading::after {
+        position: absolute;
+        background: center 1.7857142857rem no-repeat rgba(255, 255, 255, 0.5);
+        background-image: url("https://healthyandtasty.net/img/loading.gif");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: rgba(250, 250, 250, 0.8);
+        background-size: 1.7857142857rem auto;
+      }
+      .loading::after {
+        display: block !important;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        z-index: 148;
+        content: " " !important;
+        line-height: 0;
       }
     </style>
 
@@ -649,30 +748,6 @@
       GrTracking("push");
     </script>
     <!-- End GetResponse Analytics -->
-    <style>
-      .loading {
-        position: relative;
-      }
-      .loading::after {
-        position: absolute;
-        background: center 1.7857142857rem no-repeat rgba(255, 255, 255, 0.5);
-        background-image: url("https://healthyandtasty.net/img/loading.gif");
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-color: rgba(250, 250, 250, 0.8);
-        background-size: 1.7857142857rem auto;
-      }
-      .loading::after {
-        display: block !important;
-        width: 100%;
-        height: 100%;
-        left: 0;
-        top: 0;
-        z-index: 148;
-        content: " " !important;
-        line-height: 0;
-      }
-    </style>
   </head>
   <body>
     <div
